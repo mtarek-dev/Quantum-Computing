@@ -1,6 +1,6 @@
 # Quantum SAT Solver - QCIC 766 Project
 
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/mtarek-dev/Quantum-Computing)
+[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/mtarek-dev/QCIC766-Quantum-SAT-Solver)
 
 A quantum computing implementation for solving Boolean Satisfiability (SAT) problems using Grover's algorithm and quantum counting techniques.
 
