@@ -1,0 +1,6 @@
+c Unsatisfiable example (the pigeonhole principle for 2 pigeons in 1 hole):
+c   (x1 ∨ x2) ∧ (¬x1 ∨ ¬x2) ∧ (¬x1 ∨ ¬x2)  is actually equivalent to x1 xor x2, which
+c   is satisfiable.  Instead, here’s a minimal unsatisfiable: (x1), (¬x1)
+p cnf 1 2
+1 0
+-1 0

@@ -1,0 +1,21 @@
+c Simplified 2x2 Sudoku - each cell has variables for each possible value
+c x_ij_k means cell (i,j) has value k
+c Variables: x_11_1=1, x_11_2=2, x_12_1=3, x_12_2=4
+c
+c Each cell must have exactly one value (at least one):
+c Cell (1,1): x_11_1 OR x_11_2
+c Cell (1,2): x_12_1 OR x_12_2
+c
+c Each cell must have exactly one value (at most one):
+c Cell (1,1): NOT(x_11_1 AND x_11_2) = (NOT x_11_1 OR NOT x_11_2)
+c Cell (1,2): NOT(x_12_1 AND x_12_2) = (NOT x_12_1 OR NOT x_12_2)
+c
+c Row 1 must contain value 1 exactly once:
+c (x_11_1 OR x_12_1) AND NOT(x_11_1 AND x_12_1)
+p cnf 4 6
+1 2 0
+3 4 0
+-1 -2 0
+-3 -4 0
+1 3 0
+-1 -3 0

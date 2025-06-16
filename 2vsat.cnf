@@ -1,0 +1,4 @@
+c DIMACS CNF file with 1 satisfying assignments: 1 -2
+p cnf 2 2
+1 2 0
+-2 0

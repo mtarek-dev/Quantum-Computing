@@ -1,0 +1,14 @@
+c Graph coloring problem: triangle with vertices 1,2,3
+c Each vertex can be red (positive) or blue (negative)
+c Adjacent vertices must have different colors
+c
+c Constraint 1: vertex 1 and vertex 2 have different colors
+c Constraint 2: vertex 2 and vertex 3 have different colors  
+c Constraint 3: vertex 1 and vertex 3 have different colors
+p cnf 3 6
+1 2 0
+-1 -2 0
+2 3 0
+-2 -3 0
+1 3 0
+-1 -3 0
