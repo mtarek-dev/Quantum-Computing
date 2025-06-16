@@ -177,4 +177,4 @@ This implementation serves as both a practical tool for small SAT instances and 
 
 ---
 
-*This project was developed for QCIC 766 - Research Project course, demonstrating the application of quantum algorithms to NP-complete problems.*
+*This project was developed for QCIC 766 - Research Project course, QCIC 766 Research Project, Professional Master in Quantum Computing and Quantum Information, demonstrating the application of quantum algorithms to NP-complete problems.*
