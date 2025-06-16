@@ -161,8 +161,6 @@ This implementation demonstrates several important quantum computing concepts:
 
 **Reversible Computing**: How quantum circuits maintain unitarity through careful uncomputation
 
-**Hybrid Algorithms**: Combining quantum and classical components for practical problem solving
-
 ## Theoretical Background
 
 The quantum SAT solver builds upon several key theoretical results:
@@ -177,4 +175,4 @@ This implementation serves as both a practical tool for small SAT instances and 
 
 ---
 
-*This project was developed for QCIC 766 - Research Project course, QCIC 766 Research Project, Professional Master in Quantum Computing and Quantum Information, demonstrating the application of quantum algorithms to NP-complete problems.*
+*This project was developed for QCIC 766 - Research Project course, Professional Master in Quantum Computing and Quantum Information, demonstrating the application of quantum algorithms to NP-complete problems.*
